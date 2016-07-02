@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> MywebApp.in</title>
+</head>
+<body>
+<% users.forEach(function(user){%>
+<p>
+	<span><%= user.name  %></span>&nbsp;&nbsp;
+	<span><%= user.email  %></span>&nbsp;&nbsp;
+	<span><%= user.phone  %></span>&nbsp;&nbsp;
+	<span>
+	<a href="/users/remove/<%= user._id %>" title="Delete the user from database">Remove the user</a>
+	</span>&nbsp;&nbsp;
+	<span>
+	<a href="/users/update/<%= user._id %>" title="Update the user from database">Edit details</a>
+	</span> 
+<% }); %>
+</p>
+</body>
+</html>

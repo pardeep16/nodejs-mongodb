@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> MywebApp.in</title>
+<link rel='stylesheet' href='/stylesheets/add.css'/>
+<link rel="stylesheet" href="/stylesheets/w3scs.css"/>
+<script src="/javascripts/adduser.js" type="text/javascript"></script>
+
+<body>
+<script src="/javascripts/newUserForm.js" type="text/javascript"></script>
+<center><div id="headlayout" > 
+<h2 class="w3-blue-grey"> Add User</h2></br>
+<form  action="/users/newUserSubmit" method="POST" >
+<input type="text" name="username" class="w3-input"  placeholder="Full name"/><br>
+<input type="password" name="userPassword"  class="w3-input" placeholder="Password"/><br>
+<input type="email" name="email" class="w3-input" placeholder="Email-Id"/><br>
+<input type="tel" name="mobile" class="w3-input" placeholder="Mobile No."/><br>
+
+<input type="submit" class="w3-btn w3-blue" name="submit" value="Register" /><br>
+</form>
+</div></center>
+</body>
+</html>

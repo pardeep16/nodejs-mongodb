@@ -1,0 +1,40 @@
+html{
+	background: white;
+
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  
+}
+
+a {
+  color: #00B7FF;
+}
+
+button.bt{
+ display: inline-block;
+  border-radius: 2px;
+  background-color: black;
+  border: 2px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  width: 300px;
+  height: 45px;
+  margin-left: 500px;
+  margin-top: 30px;
+
+
+  
+}
+#head{
+	text-align: center;
+	color: black;
+}
+#buttons{
+	width: 250px;
+	height: 50px;
+}
